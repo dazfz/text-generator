@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.hor-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem; /* gap-12	gap: 3rem; 48px  */
+}
+
+@media screen and (max-width: 768px) {
+  .hor-inputs {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hor-inputs {
+    gap: 2px;
+  }
+}
